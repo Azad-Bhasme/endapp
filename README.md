@@ -39,3 +39,6 @@ app.py: Main Streamlit app
 random_forest_classifier.pkl: Trained model
 
 requirements.txt: Python dependencies
+
+
+apk Link :-    https://endapp-amnzb4ctw4mp66mkjzctkr.streamlit.app/
