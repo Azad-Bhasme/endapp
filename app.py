@@ -2,6 +2,13 @@ import streamlit as st
 import numpy as np
 import pickle
 
+
+
+with st.sidebar:
+    st.write ("Connect on Github  : https://github.com/Azad-Bhasme/")
+     st.write ("connect on Linkdin  :  ")
+     st.write ("Connect on Kaggle : https://www.kaggle.com/azadbhsame")
+
 # Load the model
 with open('random_forest_classifier.pkl', 'rb') as f:
     model = pickle.load(f)
